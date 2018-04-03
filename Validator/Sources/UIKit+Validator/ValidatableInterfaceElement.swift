@@ -84,8 +84,8 @@ public protocol ValidatableInterfaceElement: AnyObject {
      A validation result.
      
      */
-    func validate<R: ValidationRule>(rule r: R) -> ValidationResult where R.InputType == InputType
-    
+//    func validate<R: ValidationRule>(rule r: R) -> ValidationResult where R.InputType == InputType
+
     /**
      
      Validates the receiver's input against a `ValidationRuleSet`.
